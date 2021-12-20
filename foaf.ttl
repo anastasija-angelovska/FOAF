@@ -1,1 +1,31 @@
-/*comment*/
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+
+<https://raw.githubusercontent.com/anastasija-angelovska/FOAF/master/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/anastasija-angelovska/FOAF/master/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/anastasija-angelovska/FOAF/master/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/anastasija-angelovska/FOAF/master/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Anastasija Angelovska" ;
+  foaf:title "Miss" ;
+  foaf:givenname "Anastasija" ;
+  foaf:family_name "Angelovska" ;
+  foaf:mbox_sha1sum "f0389e30d06b3d9eee97e3900a63bbea058510b0" ;
+  foaf:schoolHomepage <https://finki.ukim.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Emilija" ;
+    foaf:mbox_sha1sum "b0d03fce499aa7696467ed1d15012b2cfccc1f52"
+  ], [
+    a foaf:Person ;
+    foaf:name "Marija" ;
+    foaf:mbox_sha1sum "229f1e8afd906f6e9ee8d5a6fa630f0e8685ab13"
+  ], [
+    a foaf:Person ;
+    foaf:name "Tamara" ;
+    foaf:mbox_sha1sum "bebffa0b08d901cc75f4fa8ca9d283f308993a03"
+  ] .
