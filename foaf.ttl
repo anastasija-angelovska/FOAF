@@ -10,16 +10,13 @@
         foaf:givenname       "Anastasija" ;
         foaf:homepage        <https://raw.githubusercontent.com/anastasija-angelovska/FOAF/master/www.linkedin.com/in/anastasija-angelovska> ;
         foaf:knows           [ a                  foaf:Person ;
-                               foaf:mbox_sha1sum  "bebffa0b08d901cc75f4fa8ca9d283f308993a03" ;
-                               foaf:name          "Tamara"
+                               foaf:mbox_sha1sum  "033fee7bbc8b85c298c46943829a4a1d1ebf93c6" ;
+                               foaf:name          "Robert"
                              ] ;
         foaf:knows           [ a                  foaf:Person ;
-                               foaf:mbox_sha1sum  "b0d03fce499aa7696467ed1d15012b2cfccc1f52" ;
-                               foaf:name          "Emilija"
-                             ] ;
-        foaf:knows           [ a                  foaf:Person ;
-                               foaf:mbox_sha1sum  "229f1e8afd906f6e9ee8d5a6fa630f0e8685ab13" ;
-                               foaf:name          "Marija"
+                               rdfs:seeAlso       <https://mjovanovik.com/> ;
+                               foaf:mbox_sha1sum  "107f0780a6707f42cd7a3eacbc6af81d1ff4bac0" ;
+                               foaf:name          "Milos Jovanovikj"
                              ] ;
         foaf:mbox_sha1sum    "f0389e30d06b3d9eee97e3900a63bbea058510b0" ;
         foaf:name            "Anastasija Angelovska" ;
