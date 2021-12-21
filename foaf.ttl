@@ -10,13 +10,19 @@
         foaf:givenname       "Anastasija" ;
         foaf:homepage        <https://raw.githubusercontent.com/anastasija-angelovska/FOAF/master/www.linkedin.com/in/anastasija-angelovska> ;
         foaf:knows           [ a                  foaf:Person ;
+                               rdfs:seeAlso       <https://raw.githubusercontent.com/robert-ilievski/wbs-foaf/master/foaf.ttl> ;
                                foaf:mbox_sha1sum  "033fee7bbc8b85c298c46943829a4a1d1ebf93c6" ;
-                               foaf:name          "Robert"
+                               foaf:name          "Robert Ilievski"
                              ] ;
         foaf:knows           [ a                  foaf:Person ;
-                               rdfs:seeAlso       <https://mjovanovik.com/> ;
-                               foaf:mbox_sha1sum  "107f0780a6707f42cd7a3eacbc6af81d1ff4bac0" ;
-                               foaf:name          "Milos Jovanovikj"
+                               rdfs:seeAlso       <https://raw.githubusercontent.com/KralMarko123/wbs-foaf-profile/master/foaf.ttl> ;
+                               foaf:mbox_sha1sum  "3d984a6512638dc564df32e22e4e3ae3c0c26498" ;
+                               foaf:name          "Marko Markovikj"
+                             ] ;
+        foaf:knows           [ a                  foaf:Person ;
+                               rdfs:seeAlso       <https://www.dropbox.com/s/yaipc3lg80qb9xi/foaf.ttl?dl=1#me> ;
+                               foaf:mbox_sha1sum  "26fd883a2a47044cd43de3bfa8b2bd071616b2b3" ;
+                               foaf:name          "Igor Ilievski"
                              ] ;
         foaf:mbox_sha1sum    "f0389e30d06b3d9eee97e3900a63bbea058510b0" ;
         foaf:name            "Anastasija Angelovska" ;
